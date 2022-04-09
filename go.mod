@@ -1,4 +1,4 @@
-module github.com/LucasVilarinho/codepix
+module github.com/lucasvilarinho/projeto
 
 go 1.15
 
