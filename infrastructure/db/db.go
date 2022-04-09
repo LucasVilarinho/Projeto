@@ -1,12 +1,11 @@
 package db
 
 import (
-	"github.com/codeedu/imersao/codepix-go/domain/model"
+	"github.com/lucasvilarinho/projeto/domain/model"
 	"log"
 	"os"
 	"path/filepath"
 	"runtime"
-
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"

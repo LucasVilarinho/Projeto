@@ -2,8 +2,8 @@ package main
 
 import(
 	"github.com/jinzhu/gorm"
-	"github.com/codeedu/imersao/codepix-go/application/grpc"
-	"github.com/codeedu/imersao/codepix-go/infrastructure/dp"
+	"github.com/lucasvilarinho/projeto/application/grpc"
+	"github.com/lucasvilarinho/projeto/infrastructure/dp"
 	"os"
 )
 
