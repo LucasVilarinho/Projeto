@@ -3,7 +3,9 @@ package model
 import (
 	"time"
 	uuid "github.com/satori/go.uuid"	
+	"github.com/asaskevich/govalidator"
 )
+
 
 
 type  Bank struct	{
@@ -18,6 +20,7 @@ func (bank *Bank) isValid() error {
 	if err != nil {
 		return err
 	}
+	return nil
 }
 
 
@@ -27,7 +30,7 @@ func NewBank(code string, name string) (*Bank, error) {
 		Name: name,
 	}
 
-	bank.ID = uuid.NewV4().string()
+	bank.ID = uuid.NewV4().String()
 	bank.CreatedAt = time.Now()
 
 	err := bank.isValid()

@@ -3,7 +3,7 @@ package main
 import(
 	"github.com/jinzhu/gorm"
 	"github.com/lucasvilarinho/projeto/application/grpc"
-	"github.com/lucasvilarinho/projeto/infrastructure/dp"
+	"github.com/lucasvilarinho/projeto/infrastructure/db"
 	"os"
 )
 
