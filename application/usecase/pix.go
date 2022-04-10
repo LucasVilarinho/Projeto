@@ -1,5 +1,9 @@
 package usecase
 
+import (
+	"github.com/lucasvilarinho/projeto/domain/model"
+)
+
 type PixUseCase struct {
 	PixKeyRepository model.PixKeyRepositoryInterface
 

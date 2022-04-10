@@ -12,6 +12,6 @@ RUN apt-get update && \
     go get github.com/spf13/cobra && \
     wget https://github.com/ktr0731/evans/releases/download/0.9.1/evans_linux_amd64.tar.gz && \
     tar -xzvf evans_linux_amd64.tar.gz && \
-    mv evans ../bin && rm -f evans_linux_amd64.tar.gz
+    mv evans ../bin && rm -f evans_linux_amd64.tar.gz 
 
 CMD ["tail", "-f", "/dev/null"]

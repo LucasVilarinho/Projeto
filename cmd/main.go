@@ -10,7 +10,7 @@ import(
 var database *gorm.DB
 
 func main() {
-	database = db.ConnectDB(os.Getenv( key: "env" ))
+	database = db.ConnectDB(os.Getenv("env"))
 
-	grpc.StartGrpcServer(database, port:"50051")
+	grpc.StartGrpcServer(database, 50051)
 }
